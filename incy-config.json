@@ -1,0 +1,22 @@
+{
+    "Name": "ru-safe",
+    "GlobalProxy": "true",
+    "UseChunkFiles": true,
+    "RemoteDNSType": "DoH",
+    "RemoteDNSDomain": "https://8.8.8.8/dns-query",
+    "RemoteDNSIP": "8.8.8.8",
+    "DomesticDNSType": "DoH",
+    "DomesticDNSDomain": "https://77.88.8.8/dns-query",
+    "DomesticDNSIP": "77.88.8.8",
+    "Geoipurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat",
+    "Geositeurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
+    "LastUpdated": "1787716889",
+    "DirectSites": ["geosite:private", "geosite:ru"],
+    "DirectIp": ["geoip:private", "geoip:ru"],
+    "ProxySites": [],
+    "ProxyIp": [],
+    "BlockSites": ["geosite:win-spy", "geosite:torrent", "geosite:category-ads-all"],
+    "BlockIp": [],
+    "DomainStrategy": "IPIfNonMatch",
+    "FakeDNS": "false"
+}
