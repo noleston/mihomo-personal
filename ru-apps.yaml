@@ -616,6 +616,7 @@ payload:
   - PROCESS-NAME,ru.yoo.business
   - PROCESS-NAME,ru.yoo.kassa
   - PROCESS-NAME,ru.yoo.money
+  - PROCESS-NAME,io.you.money
   - PROCESS-NAME,ru.yoo.sdk.kassa.payments.example.release
   - PROCESS-NAME,ru.yota.android
   - PROCESS-NAME,ru.yozhka
